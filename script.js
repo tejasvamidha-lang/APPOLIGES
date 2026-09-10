@@ -44,7 +44,7 @@ function showThankYou() {
   thankYou.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
   const phoneNumber = '919117865343';
-  const message = encodeURIComponent('She clicked “Yes, I do” on your apology website. ❤️');
+  const message = encodeURIComponent('She clicked “Yes, I do” ❤️');
   window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank', 'noopener,noreferrer');
 }
 
